@@ -14,3 +14,11 @@ h3{
     color: aqua;
     padding: 5px;
 }
+
+/* Id */
+
+#exclusive-title {
+    background-color: pink;
+    color: yellow;
+    padding: 10px;
+}
