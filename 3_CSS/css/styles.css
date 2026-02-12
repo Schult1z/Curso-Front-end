@@ -22,3 +22,36 @@ h3{
     color: yellow;
     padding: 10px;
 }
+
+/* Ordem das regras */
+
+h2 {
+    border-bottom: 2px solid red;
+}
+
+.titulo {
+    border-bottom: 2px solid blue;
+}
+
+#algumtitulo {
+    border-bottom: 2px solid green;
+}
+
+/* Nome de cores */
+
+.color-name {
+    color: crimson;
+    font-size: 30px;
+}
+
+/* HEX */
+
+.hex{
+    color: #55a398;
+    font-size: 20px;
+}
+
+.hex2 {
+    color: #98f8;
+    font-size: 20px;
+}
