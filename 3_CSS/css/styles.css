@@ -7,3 +7,10 @@ body {
 h3{
     color: green;
 }
+
+/* Classes */
+.paragraph{
+    background-color:  black;
+    color: aqua;
+    padding: 5px;
+}
