@@ -55,3 +55,80 @@ h2 {
     color: #98f8;
     font-size: 20px;
 }
+
+/* Aprofundamento em Hex */
+
+.simple-hex {
+    color: #A5F;
+}
+
+.simple-hex2 {
+    color: #B6F7;
+}
+
+/* RGB */
+
+.rgb {
+    color:rgb(255, 0, 0)
+}
+
+.mixer-rgb {
+    color: rgb(100, 200, 255)
+}
+
+/* RGBa */
+
+.rgba {
+    color: rgba(14, 14, 117, 1)
+}
+
+/* HSL */
+
+.hsl {
+    color: hsl(100, 20%, 30%)
+}
+
+.hsl2 {
+    color: hsl(50, 60%, 70%)
+}
+
+/* BackGround-color */
+.bg {
+    background-color: #000;
+    color: yellow;
+}
+
+.bg-2 {
+    background-color: #55a398;
+    color: #000;
+}
+
+.bg-opacidade {
+    background-color: green;
+    opacity: 0.2;
+}
+
+.rgba-opacidade {
+    background-color: rgba(90, 120, 20, 0.2);
+    color: #fff;
+}
+
+/* BG - Img */
+.bg-img {
+    background-image: url("../img/espaco.jpg");
+    color: #fff;
+    opacity: 0,5;
+}
+
+/* Centralizando BG img */
+.not-center,
+.center-bg {
+    height: 400px; /* Altura */
+    width: 400px;  /* Largura */
+    background-image: url("../img/planetas.jpg");
+}
+
+.center-bg {
+    background-position: center;
+    background-size: cover;
+}
