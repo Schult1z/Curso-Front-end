@@ -255,3 +255,42 @@ h2 {
     background-color: #666;
     margin: 5px 10px 15px 20px;
 }
+
+/* Box Model */
+
+.box-model {
+    margin: 20px;
+    padding: 15px;
+    border: 3px solid #A5F;
+    border-radius: 7px;
+    width: 200px;
+    height: 400px;
+}
+
+/* Text Align */
+.text-aligned {
+    text-align: right;
+    color: #000;
+}
+
+.container-center {
+    text-align: center;
+    width: 300px;
+    border: 1px solid #000;
+}
+
+/* Text Decoration */
+.underline {
+    text-decoration: underline;
+    color: #000;
+}
+
+.line-trough {
+    text-decoration: line-through;
+    color: #000;
+}
+
+.remove-underline {
+    text-decoration: none;
+    color: blue;
+}
