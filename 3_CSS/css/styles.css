@@ -294,3 +294,77 @@ h2 {
     text-decoration: none;
     color: blue;
 }
+
+/* Text Transform */
+.upper {
+    text-transform: uppercase;
+    color: #000;
+}
+
+.lower {
+    text-transform: lowercase;
+    color: #000;
+}
+
+/* Letter Spacing */
+.spacing {
+    letter-spacing: 5px;
+    color: #000;
+}
+
+/* Fontes */
+.serif {
+    font-family: Georgia;
+}
+
+.sans-serif {
+    font-family: Helvetica;
+}
+
+.monospace {
+    font-family: monospace;
+}
+
+.cursive {
+    font-family: cursive;
+}
+
+.fantasy{
+    font-family: fantasy;
+}
+
+/* Font Style */
+
+.italic {
+    font-style: italic;
+}
+
+.oblique {
+    font-style: oblique;   
+}
+
+/* Font Weight */  
+.thin, .bold, .bolder {
+    font-family: Helvetica;
+}
+
+.thin {
+    font-weight: 100;
+}
+
+.bold {
+    font-weight: 600;
+}
+
+.bolder {
+    font-weight: 900;
+}
+
+/* Font Size */
+.small{
+    font-size: 10px;
+}
+
+.big {
+    font-size: 60px;
+}
