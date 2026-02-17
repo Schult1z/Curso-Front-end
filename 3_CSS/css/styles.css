@@ -421,3 +421,85 @@ h2 {
     top: 2px;
     right: 2px;
 }
+
+/* Absolute e relative */
+
+.relative-container {
+    width: 300px;
+    height: 300px;
+    border: 1px solid red;
+    margin-top: 120px;
+    position: relative;
+}
+
+.absolute1,
+.absolute2 {
+    width: 50px;
+    height: 50px;
+    background-color: #422;
+    position: absolute;
+}
+
+.absolute1 {
+    top: 10px;
+    left: 10px;
+}
+
+.absolute2 {
+    bottom: 10px;
+    right: 10px; 
+}
+
+/* Fixed */
+.fixed {
+    width: 100px;
+    height: 100px;
+    background-color: #851;
+    border: 1px solid blue;
+    position: fixed;
+    top: 50px;
+    right: 50px;
+}
+
+/* Sticky */
+
+.sticky {
+    width: 100px;
+    height: 100px;
+    background-color: #994;
+    border: 1px solid green;
+    position: sticky;
+    top: 10px;
+
+}
+
+/* Z-index */ 
+
+.absolute3,
+.absolute4,
+.absolute5 {
+    width: 50px;
+    height: 50px;
+    background-color: #123;
+    position: absolute;
+}
+
+.absolute3 {
+    top: 0;
+    left: 0;
+    z-index: 3;
+}
+
+.absolute4 {
+    top: 10px;
+    left: 10px;
+    background-color: #246;
+    z-index: 2;
+}
+
+.absolute5 {
+    top: 40px;
+    left: 40px;
+    background-color: #399;
+    z-index: 1;
+}
