@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formularios</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <h2>Formularios HTML</h2>
+    <!-- 1- Primeiro formulario -->
+    <!-- 2- Atributos do Formulario -->
+    <form action="register.php" method="get"> <!--Tag form encapsula todos os elementos do formulario-->
+        <div>
+        <label>Nome:</label>
+        <input type="text" /> <!--Type e onde definimos o proposito do input, e o input e o elemento que recebe dados-->
+        </div>
+    <!-- 3 - Atributo name -->
+     <div>
+    <!-- 4 - Atributo Label -->
+        <label for="age">Idade:</label> <!--Agora a Label e o input estao ligados por meio do atributo -->
+        <input type="text" name="age" />
+     </div>
+    <!-- 5 - envio de form -->
+     <input type="submit" value="Enviar" /> <!--Submit atributo de envio-->
+    </form> 
+</body>
+</html>
