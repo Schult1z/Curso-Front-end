@@ -68,7 +68,26 @@
                 <input type="text" name="lastname">
             </fieldset>
         </div>
-        
+    
+    <!-- 11 - Datalist -->
+    <div>
+        <label for="flavor">Escolha o Sabor:</label>
+        <input type="text" list="flavors" name="flavor"> <!--List para linkar o datalist com o input-->
+
+        <datalist id="flavors">         <!--Deixa o usuario digitar ou usar as option-->
+            <option value="Cereja"></option>
+            <option value="Morango"></option>
+            <option value="Abacaxi"></option>
+            <option value="Chocolate"></option>
+            <option value="Creme"></option>
+        </datalist>
+    </div>
+
+    <!-- 12 - Password -->
+        <div>
+            <label for="password">Digite a sua Senha:</label>
+            <input type="password" name="password">
+        </div>
     <!-- 5 - envio de form -->
      <input type="submit" value="Enviar" /> <!--Submit atributo de envio-->
     </form> 
