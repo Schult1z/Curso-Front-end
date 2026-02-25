@@ -1,0 +1,11 @@
+/* 2 - Media Query */
+
+h1 {
+    color: red;
+}
+
+@media screen and (max-width: 500px) { /* Muda a cor do H1 quando a tela/janela for no maximo 500px, baseada na largura da tela*/
+    h1 {
+        color: aqua;
+    }
+}
