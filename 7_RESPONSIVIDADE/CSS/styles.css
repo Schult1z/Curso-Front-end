@@ -9,3 +9,33 @@ h1 {
         color: aqua;
     }
 }
+
+/* 3 - Min width */
+p {
+    background-color: red;
+    color: #000;
+}
+
+@media screen and (min-width: 800px) { /*  Entao abaixo de 800px o paragrafo muda*/
+    p {
+    background-color: #789;
+    color: red;
+}
+}
+
+/* 4 - Landscape (celular na vertical)*/
+h3 {
+    display: none;
+}
+
+@media screen and (orientation: landscape) { 
+    h3 {
+        display: block;
+    }
+}
+
+/* BreakPoints
+600px e abaixo - Celular
+768px ate 600px - Tablets
+992px ate 768px - Mini Laptops
+992px a cima Laptos e Desktop */
