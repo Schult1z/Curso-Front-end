@@ -29,3 +29,101 @@ body {
     width: 33%;
     border: 1px solid red;
 }
+
+/* 4 - Justify Content */
+.center,
+.space_around,
+.space_between,
+.end {
+    display: flex;
+    margin-bottom: 20px;
+}
+
+.center .box,
+.space_around .box,
+.space_between .box,
+.end .box {
+    width: 50px;
+}
+
+.center {
+    justify-content: center;
+}
+
+.space_around {
+    justify-content: space-around;
+}
+
+.space_between {
+    justify-content: space-between;
+}
+
+.end {
+    justify-content: end;
+}
+
+/* 5 - Align items */
+
+.align_center,
+.flex_end,
+.stretch {
+    display: flex;
+    margin-bottom: 20px;
+    height: 200px;
+    border: 1px solid blue;
+}
+
+.align_center .box,
+.flex_end .box,
+.stretch .box {
+    width: 50px;
+}
+
+.align_center {
+    align-items: center;
+    justify-content: center;
+}
+
+.flex_end {
+    align-items: flex-end;
+}
+
+.stretch {
+    align-items: stretch;
+}
+
+.stretch .box {
+    height: auto;
+}
+
+/* 6 - gap */
+
+.gap {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    border: 1px solid green;
+    gap: 10px;
+}
+
+.gap .box {
+    width: 32%;
+}
+
+/* 7 - Order */
+
+.order {
+    display: flex;
+}
+
+#one {
+    order: 1;
+}
+
+#two {
+    order: 2;
+}
+
+#three {
+    order: 3;
+}
