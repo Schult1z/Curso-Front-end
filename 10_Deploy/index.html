@@ -11,8 +11,31 @@
     <header class="topo">
         <div class="container">
             <strong>NewsLetter</strong> <!--Destaca que esse texto tem enorme importancia-->
-            <button></button>
+            <button id="btnTema" class="btn">Alternar Tema 🌓</button>
         </div>
     </header>
+
+    <main class="container">
+        <section class="caixa">
+            <h1>Inscreva-se</h1>
+            <p>Receba novidades no seu e-mail. Sem Spam</p>
+
+            <form>
+                <label for="nome">Nome:</label>
+                <input type="text" name="nome" id="nome" placeholder="Digite seu nome">
+
+                <label for="email">E-mail:</label>
+                <input type="email" name="email" id="email" placeholder="nome@email.com">
+
+                <button type="submit" class="btn_primario">Quero receber!</button>
+            </form>
+        </section>
+    </main>
+
+    <footer class="rodape">
+        <div class="container">
+            <small>NewsLetter <span id="ano"></span></small>
+        </div>
+    </footer>
 </body>
 </html>
