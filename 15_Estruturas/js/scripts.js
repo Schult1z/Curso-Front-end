@@ -54,3 +54,10 @@ console.log(Math.max(5, 2, 1, 10));
 console.log(Math.floor(5.14)); // aredonda o numero para baixo 
 
 console.log(Math.ceil(5.14)); // aredonda para o numero superior
+
+// Console
+console.log("Teste!!");
+
+console.error("erro!");
+
+console.warn("aviso!");
